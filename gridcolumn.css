@@ -1,0 +1,313 @@
+body{
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    
+}
+ *{
+  box-sizing: border-box;
+ 
+  
+}
+/*
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+[class*="col-"] {
+  float: left;
+ padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+/*
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+ 
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+*/
+/*
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+ 
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}}
+  */
+  
+  
+  
+  .container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	height: 73px;
+	background-color: #d13328;
+        font-family: Helvetica, Verdana, sans-serif;
+        text-align: left;
+        color: white;
+        font-size: 420%;
+        font-style: oblique;
+        margin-bottom: 10px;
+        
+        
+}
+.hero-image {
+	height: 510px;
+  	background: url(h2.jpg) no-repeat center;
+        text-align: right;
+        color: white;
+        font-size:300%;
+        margin-bottom: 10px;
+        
+}
+
+.row3 .six, .row3 .three {
+	height: 333px;
+	
+        margin-bottom: 10px;
+      
+}
+.row4 .six, .row4 .three {
+	height: 333px;
+	
+        margin-bottom: 10px;
+}
+.row5 .six, .row5 .three {
+	height: 333px;
+	
+        margin-bottom: 10px;
+}
+.row6 .six, .row6 .three {
+	height: 333px;
+        margin-bottom: 10px;
+}
+.last {
+	height: 73px;
+	background-color: #d13328;
+        font-size: 200%;
+        color: white;
+        
+}
+footer {
+	height: 443px;
+	background-color: #FDE3A7;
+        background: url(h19.jpg) no-repeat right center;
+}
+.row3 .left{
+    background: url(h1.jpg) no-repeat center ;
+    
+}
+.row3 .midle{
+    background: url(h3.jpg) no-repeat center;
+    
+}
+.row3 .right{
+    background: url(h4.jpg) no-repeat center;
+    
+}
+
+.row4 .left{
+    background: url(h5.jpg) no-repeat center ;
+    
+}
+.row4 .midle{
+    background: url(h6.jpg) no-repeat center;
+    
+}
+.row4 .right{
+    background: url(h7.jpg) no-repeat center;
+    
+}
+.row5 .left{
+    background: url(h15.jpg) no-repeat center ;
+    
+}
+.row5 .midle{
+    background: url(h14.jpg) no-repeat center;
+    
+}
+.row5 .center{
+    background: url(h14.jpg) no-repeat left; 
+}
+.row5 .right{
+    background: url(h10.jpg) no-repeat center;
+    
+}
+.row6 .left{
+    background: url(h20.jpg) no-repeat center ;
+    
+}
+.row6 .midle{
+    background: url(h3.jpg) no-repeat center;
+    
+}
+.row6 .right{
+    background: url(h20.jpg) no-repeat top;
+    
+}
+.row3:hover{
+    backface-visibility: visible;
+    background-attachment:inherit;
+}
+
+  
